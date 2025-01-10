@@ -1,0 +1,143 @@
+/* General Body Styling */
+body {
+  font-family: Arial, sans-serif;
+  background-color: #161212;
+  color: #B7D7D7;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  align-items: center;
+  min-height: 100vh;
+  margin: 0;
+}
+
+/* Game Container */
+#game-container {
+  text-align: center;
+  background-color: #5B5757;
+  padding: 20px;
+  border-radius: 10px;
+  box-shadow: 0 5px 15px rgba(0, 0, 0, 0.5);
+  width: 90%;
+  max-width: 600px;
+}
+
+/* Title */
+h1 {
+  margin-bottom: 20px;
+  color: #FF787B;
+  font-size: 2rem;
+  font-weight: bold;
+}
+
+/* Scoreboard */
+#scores {
+  margin-bottom: 20px;
+  font-size: 18px;
+}
+
+/* Controls */
+#controls {
+  display: flex;
+  justify-content: center;
+  flex-wrap: wrap;
+  gap: 10px;
+  margin: 20px 0;
+}
+
+/* Buttons */
+button {
+  padding: 10px 20px;
+  margin: 5px;
+  border: none;
+  border-radius: 5px;
+  background-color: #FF787B;
+  color: white;
+  font-size: 1rem;
+  font-weight: bold;
+  cursor: pointer;
+  transition: background-color 0.3s, transform 0.2s;
+}
+
+button:hover {
+  background-color: #E7989A;
+  transform: scale(1.05);
+}
+
+button:active {
+  transform: scale(0.95);
+}
+
+/* Status Message */
+#statusMessage {
+  font-size: 1.2rem;
+  margin-top: 10px;
+  color: #FF787B;
+  font-weight: bold;
+}
+
+/* Game Board */
+#game-board {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  grid-gap: 10px;
+  margin: 20px auto;
+  width: 100%;
+  max-width: 300px;
+}
+
+/* Game Cells */
+.cell {
+  width: 100%;
+  aspect-ratio: 1;
+  background-color: #B7D7D7;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  font-size: 2rem;
+  font-weight: bold;
+  color: #161212;
+  border-radius: 5px;
+  cursor: pointer;
+  transition: background-color 0.3s, transform 0.2s;
+}
+
+.cell:hover:not(.taken) {
+  background-color: #9FF6F6;
+  transform: scale(1.1);
+}
+
+.cell.taken {
+  cursor: not-allowed;
+  background-color: #5B5757;
+}
+
+/* Responsive Design */
+@media screen and (max-width: 480px) {
+  #game-container {
+    padding: 15px;
+  }
+
+  button {
+    padding: 8px 15px;
+    font-size: 0.9rem;
+  }
+
+  #statusMessage {
+    font-size: 1rem;
+  }
+
+  h1 {
+    font-size: 1.5rem;
+  }
+}
+
+/* Footer Styling */
+footer {
+  margin-top: auto;
+  padding: 10px 0;
+  width: 100%;
+  color: #fff;
+  font-size: 1rem;
+  text-align: center;
+}
