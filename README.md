@@ -5,17 +5,17 @@ This is a modern Tic-Tac-Toe game created using HTML, CSS, and JavaScript. The g
 **Link to the website:** [TicTacToe](https://ishitha21.github.io/Prodigy_WD_03/Index.html)
 
 ## Features
-- Player vs Player Mode: Two players can take turns playing against each other.
-- Player vs Computer Mode: Compete against an AI opponent with automatic difficulty adjustments.
-- Real-Time Score Tracking: Displays the number of wins for both Player X and Player O.
-- Game Restart & Score Reset: Easily restart the current game or reset the entire score history.
-- Responsive Design: Play the game on any device, from desktop to mobile.
+- **Player vs Player Mode:** Two players can take turns playing against each other.
+- **Player vs Computer Mode:** Compete against an AI opponent with automatic difficulty adjustments.
+- **Real-Time Score Tracking:** Displays the number of wins for both Player X and Player O.
+- **Game Restart & Score Reset**: Easily restart the current game or reset the entire score history.
+- **Responsive Design:** Play the game on any device, from desktop to mobile.
 
 ## Controls
-- Player vs Player: Start a game where two players can compete on the same device.
-- Player vs Computer: Start a game where one player competes against an AI.
-- Restart Game: Restart the current game without resetting scores.
-- Reset Scores: Clear the game scores.
+- **Player vs Player:** Start a game where two players can compete on the same device.
+- **Player vs Computer:** Start a game where one player competes against an AI.
+- **Restart Game:** Restart the current game without resetting scores.
+- **Reset Scores:** Clear the game scores.
 
 ## Screenshot
 ![image](https://github.com/user-attachments/assets/520db93d-7501-4d71-9eaa-0e6ebd54c134)
